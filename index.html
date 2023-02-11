@@ -1,54 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>chinmoy</title>
     <style>
-        nav{
+        nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            margin: 20px;
         }
+
         div.links a {
             /* border: 1px solid; */
             padding: 5px;
-            text-decoration:none;
-            color:blueviolet;
+            text-decoration: none;
+            color: blueviolet;
             font-weight: bold;
+
+        }
+
+        #section-home {
+            display: flex;
+            justify-content: space-between;
+            display: flex;
+            background-color:rgb(129, 76, 107);
+            color: black;
+            margin: 20px;
+            border-radius: 15px;
+            height: 300px;
+
+        }
+
+        #section-home img {
+            height: 300px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+
+        }
+        #section-home div:first-child{
+            padding:20px;
         }
     </style>
-</head> 
+</head>
+
 <body>
-       <nav>
+    <nav>
         <div>
             <!--container for logo-->
             <a href="/"><img src="images/logo.png" alt=""> </a>
-        </div> 
+        </div>
         <div class="links">
-            <!--container for navigation links--> 
+            <!--container for navigation links-->
             <a href="section-home">
                 Home
-            </a> 
+            </a>
             <a href="section-projects">
                 Projects
-            </a> 
+            </a>
             <a href="section-contact">
                 Contact
-            </a> 
+            </a>
         </div>
-       </nav>
-       <section id="section-home">
+    </nav>
+    <section id="section-home">
         <div>
             <!--description about me-->
             <h1>Hey! welcome to this website</h1>
-            <p>This website is developed by <b>Chinmoy  </b>          </p>
+            <p>This website is developed by <b>Chinmoy </b> </p>
         </div>
 
         <div>
             <img src="images/cm.jpg" height="121" />
         </div>
-       </section>
+    </section>
 </body>
+
 </html>
