@@ -44,6 +44,42 @@
         #section-home div:first-child{
             padding:20px;
         }
+        #section-projects{
+            margin: 20px;
+        }
+        .two-projects {
+            display: flex;
+        }
+        .two-projects>div{
+            width: 50%;
+            /* border: 2px solid; */
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .two-projects img{
+            height: 300px;
+           
+        }
+        .two-projects > div:first-child{
+            background-color: #adbfd7;
+            margin-right: 10px;
+        }
+        .two-projects > div:last-child{
+            background-color:#2D354B;
+            margin-left: 10px;
+            color: white;
+        }
+        .third-project{
+            padding: 20px;
+            margin: 20px 0;
+            background-image:linear-gradient(to bottom right,#3a3370,#814c6e);
+            color: white;
+            border-radius: 20px;
+        }
+        .third-project img{
+            height: 400px;
+        }
+        
         
     </style>
 </head>
@@ -80,9 +116,9 @@
     </section>
 
     <section id="section-projects">
-        <div>
+        <div class="two-projects">
             <!--first two projects-->
-            <div>
+            <div >
                 <h1>
                     Paymento
                 </h1>
@@ -100,7 +136,7 @@
             </div>
             
         </div>
-        <div>
+        <div class="third-project">
             <!--third project-->
             <h1>
                 Piyuu
